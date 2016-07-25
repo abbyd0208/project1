@@ -1,0 +1,481 @@
+body,html{ height:100%;}
+
+/*===============================版型=============================*/
+/*--wrapper==========================================*/
+.wrapper_box{ clear:both; background:url(../images/bg_wrapper.png); background-size:300px auto;} 
+.wrapper_box .wrapper{clear:both;}
+
+/*--topbar==================*/
+.topbar_box{ clear:both;}
+.topbar_box .topbar{width:100%; max-width:1300px; height:43px; margin:0 auto;}
+.topbar .menu_1{ margin-top:8px; float:right;}
+.topbar .menu_1 a{ display:inline-block; padding:5px 8px;color:#fff; font-size:13px; border-radius:8px; }
+.topbar .menu_1 a.fb{ background:#458ECB;}
+.topbar .menu_1 a.line{ background:#329E55;}
+.topbar .menu_1 a.blog{ background:#ea7c84;}
+
+/*小於1000*/
+@media only screen and (max-width:1000px){
+	.topbar_box{ display:none;}
+}
+
+/*--header====================================*/
+.header_box{ clear:both;} 
+.header_box .header{ width:100%; max-width:1300px; height:120px; margin:0 auto; margin-bottom:15px; position:relative; border-bottom:2px solid #d4cabd;}
+
+/*小於1000*/
+@media only screen and (max-width:1000px){
+	.header_box	.header{ height:60px;}
+}
+
+/*==header_2===================*/
+.header_box_2{}
+.header_box_2 .header{ width:100%; max-width:1300px; margin:0 auto; position:relative;}
+
+/*--container==============*/
+.container_box{} 
+.container_box .container{ clear:both; width:100%; max-width:1300px; padding:15px 40px; margin:0 auto; background:rgba(255,255,255,0.2); box-shadow: 0 1px 2px rgba(204,204,204,0.75); border-radius:8px;}
+
+/*小於600*/
+@media only screen and (max-width:600px){
+	.container_box .container{ padding:10px;}
+}
+/*--container_2==============*/
+.container_box_2{} 
+.container_box_2 .container{ clear:both; width:100%; max-width:1300px; margin:0 auto; }
+
+/*--footer=================*/
+.footer_box{ clear:both; height:110px; background:url(../images/bg_footer.png) left bottom repeat-x;}
+.footer{width:100%; height:110px; max-width:1300px; margin:0 auto; text-align:center;}
+.footer .menu_1{ margin-top:30px;}
+.footer .menu_1 a{ padding-right:10px; padding-left:10px; font-size:14px; margin-bottom:10px;}
+.footer .menu_1 a:last-child{padding-right:0px;}
+.footer p{ font-size:12px; }
+@media only screen and (max-width:600px){
+	.footer{ height:80px;}
+	.footer .menu_1 a{ padding-right:5px; padding-left:5px;}
+	
+}
+
+/*--橫列 r1=================*/
+.r1{}
+.r1.c1{}
+
+/*===================================.header.nav_1 主選單======================================*/
+
+/*手機板選單開關================*/
+.nav_1 .btn_close{ display:none; width:30px; height:30px; background: url(../images/icon_btn_switch.png) right center/ auto 30px no-repeat; position:absolute; top:10px; right:10px; text-indent:-9999px;}
+.header .btn_open{ display:none; width:30px; height:30px; background: url(../images/icon_btn_switch.png) left center/ auto 30px no-repeat; position:absolute; top:10px; right:10px; text-indent:-9999px;}
+/*nav_1======================*/
+.header .nav_1{ width:100%; height:104px; }
+.nav_1 .box1.left{ position:absolute; bottom:20px; left:60px;}/*positon定位*/
+.nav_1 .box1.right{position:absolute; bottom:20px; right:60px;}/*positon定位*/
+.nav_1 .box1{}
+.nav_1 .box1 li{ float:left; margin-right:25px; text-align:center;}
+.nav_1 .box1 li:last-child{margin-right:0px;}
+.nav_1 .box1 li a{display:block; width:86px; height:95px; padding:10px 5px; color:#544c47;}
+.nav_1 .box1 li span{ display:block; font-size:12px; color:#a0a095;}
+.nav_1 .box1 li:hover a{ background:#a4d2f4; color:#fff;}
+.nav_1 .box1 li:hover span{ color:#fff;}
+.nav_1 .box1 li p.icon{ width:38px; height:38px; margin:0 auto; background:url(../images/nav_1-icon.png) no-repeat; background-size:380px 72px; padding-top:38px;}
+.nav_1 .box1 li p.icon1{background-position:0px 0px;}
+.nav_1 .box1 li p.icon2{background-position:-38px 0px;}
+.nav_1 .box1 li p.icon3{background-position:-75px 0px;}
+.nav_1 .box1 li p.icon4{background-position:-114px 0px;}
+.nav_1 .box1 li p.icon5{background-position:-152px 0px;}
+.nav_1 .box1 li p.icon6{background-position:-190px 0px;}
+.nav_1 .box1 li p.icon7{background-position:-228px 0px;}
+.nav_1 .box1 li p.icon8{background-position:-266px 0px;}
+.nav_1 .box1 li p.icon9{background-position:-304px 0px;}
+.nav_1 .box1 li p.icon10{background-position:-342px 0px;}
+.nav_1 .box1 li:hover p.icon1{background-position:0px -38px;}
+.nav_1 .box1 li:hover p.icon2{background-position:-38px -38px;}
+.nav_1 .box1 li:hover p.icon3{background-position:-75px -38px;}
+.nav_1 .box1 li:hover p.icon4{background-position:-114px -38px;}
+.nav_1 .box1 li:hover p.icon5{background-position:-152px -38px;}
+.nav_1 .box1 li:hover p.icon6{background-position:-190px -38px;}
+.nav_1 .box1 li:hover p.icon7{background-position:-228px -38px;}
+.nav_1 .box1 li:hover p.icon8{background-position:-266px  -38px;}
+.nav_1 .box1 li:hover p.icon9{background-position:-304px -38px;}
+.nav_1 .box1 li:hover p.icon10{background-position:-342px -38px;}
+
+/*.nav_1  logo 側滑選單中的logo==========*/
+.nav_1 .logo{}
+.nav_1 .logo h1{ width:200px; height:110px; position:absolute; bottom:20px; left:50%; margin-left:-100px;}
+.nav_1 .logo h1 a{ display:block; width:200px; height:110px; text-indent:-9999px; background:url(../images/logo_love.png) no-repeat; background-size:200px 110px;}
+
+/*.header logo header內的logo 於手機板顯示==========*/
+.header .logo_2{ display:none;}
+.header .logo_2 h1{ width:272px; height:55px; position:absolute; bottom:5px; left:50%; margin-left:-136px;}
+.header .logo_2 h1 a{ display:block; width:272px; height:55px; text-indent:-9999px; background:url(../images/logo_free-m.png) no-repeat; background-size:272px auto;}
+
+/*小於1000*/
+@media only screen and (max-width:1000px){
+	/*手機板選單開關*/
+	.nav_1 .btn_close{display:block;}
+	.header .btn_open{display:block;}
+	/*nav_1*/
+	.header .nav_1{ width:100%; height:100vh; padding-top:95px; position:fixed; top:0px;left:100%; background:rgba(255,255,255,0.9); overflow:auto; z-index:30;}
+	.header .nav_1 .box1.left{ position:static;}/*positon定位*/
+	.header .nav_1 .box1.right{position:static;}/*positon定位*/
+	.header .nav_1 .box1{ width:100%; max-width:230px; margin:0 auto;}
+	.header .nav_1 .box1 li{ float:none;}
+	.header .nav_1 .box1 li a{ width:100%; height:50px; line-height:50px; padding:0px; text-align:left; font-size:16px;}
+	.header .nav_1 .box1 li p.icon{ display:inline-block; margin-right:8px; position:relative; top:5px;}
+	.header .nav_1 .box1 li a span{ display:inline-block; margin-left:8px;}
+	/*.nav_1  logo 側滑選單中的logo==========*/
+	.header .nav_1 .logo h1{width:150px; height:83px;  margin-left:-75px; top:10px; }
+	.header .nav_1 .logo h1 a{width:150px; height:83px; background-size:150px 83px;}
+
+	/*.header logo header內的logo==========*/
+	.header .logo_2{ display:block;}
+}
+
+@media only screen and (max-width:480px){
+	.header .logo_2 h1{ width:223px; height:45px; position:absolute; bottom:5px; left:50%; margin-left:-111px;}
+	.header .logo_2 h1 a{ display:block; width:223px; height:45px; text-indent:-9999px; background:url(../images/logo_free-m.png) no-repeat; background-size:223px auto;}
+}
+
+
+/*======================================container=========================================*/
+/*圖集1 首頁=============*/
+.gallery_1 { margin-bottom:30px; padding:0 15px; border-radius:8px;}
+.gallery_1 .run{}
+.gallery_1 .run .inner{}
+.gallery_1 .run .inner .piece{}
+.gallery_1 .run .inner .piece a{ display:block; height:0px; padding-bottom:45%; overflow:hidden;}
+.gallery_1 .run .inner .piece img{ width:100%; height:auto;}
+
+.gallery_1 .bx-wrapper{ margin:0 auto;}
+.gallery_1 .bx-wrapper .bx-viewport{ border:none; left:0px; box-shadow:0 0 0 0 #fff;}
+.gallery_1 .bx-wrapper .bx-controls-direction a{ z-index:1;}
+.gallery_1 .bx-wrapper .bx-pager { bottom:15px;}
+
+/*圖集2 房型內頁=============*/
+.subject_room .gallery_2 { margin-bottom:15px;}
+.subject_room .gallery_2 .run{}
+.subject_room .gallery_2 .run .inner{}
+.subject_room .gallery_2 .run .inner .piece{}
+.subject_room .gallery_2 .run .inner .piece a{ display:block; height:0px; padding-bottom:45%; overflow:hidden;}
+.subject_room .gallery_2 .run .inner .piece img{ width:100%; height:auto;}
+
+.subject_room .gallery_2 .run .bx-wrapper{ margin:0; min-height:500px;}
+.subject_room .gallery_2 .run .bx-viewport{background:#eee;}
+.subject_room .gallery_2 .run .bx-wrapper .bx-viewport{ border:none; left:0px; box-shadow:none;}
+.subject_room .gallery_2 .bx-wrapper .bx-controls-direction a{ z-index: 1; }
+.subject_room .gallery_2 .pager{}
+.subject_room .gallery_2 .pager a{ display:inline-block; width:18.5%; height:90px; margin-right:1%; overflow:hidden; background:#eee;}
+.subject_room .gallery_2 .pager a:last-child{ margin-right:0px;}
+.subject_room .gallery_2 .pager a img{ width:144px; height:auto;}
+
+@media only screen and (max-width:768px){
+	.subject_room .gallery_2 .run .bx-viewport{ min-height:250px; max-height:250px;}
+	.subject_room .gallery_2 .run .bx-wrapper{ min-height:250px; max-height:250px;}
+	.subject_room .gallery_2 .pager{ display:none; }
+}
+
+@media only screen and (max-width:600px){
+	.subject_room .gallery_2 .run .bx-viewport{ min-height:0px;}
+	.subject_room .gallery_2 .run .bx-wrapper{ min-height:0px; }
+}
+
+/*====================================block 歸零=======================================*/
+.block{ clear:both;}
+.block_title{ clear:both;}
+.block_content{ clear:both;}
+
+/*block_1 首頁=========*/
+.block_1{ margin-bottom:30px; padding:0 40px;}
+.block_1:last-child{margin-bottom:0px;}
+.block_1 .block_title{ height:60px; background:url(../images/bg_title.png) -10px bottom no-repeat; margin-bottom:20px; position:relative;}
+.block_1 .block_title span.icon_title{ width:48px; height:58px; position:absolute; bottom:8px; left:0px;}
+.block_1 .block_title span.icon_title.icon1{background:url(../images/icon_title_1.png) no-repeat; background-size:48px 58px;}
+.block_1 .block_title span.icon_title.icon2{background:url(../images/icon_title_2.png) no-repeat; background-size:48px 58px}
+.block_1 .block_title h2{font-size:16px; position:absolute; top:10px; left:60px;}
+.block_1 .block_title span{font-size:13px; margin-left: 10px; color:#999; position:absolute; left:65px; bottom:10px;}
+.block_1 .block_content{padding:0 20px;}
+.block_1 .block_content h3.sub_title{ display:inline-block; margin:0 auto; margin-left:15px; margin-bottom:15px; padding:5px 10px; text-align:center; color:#686037;  background:#E1D7BB; border-radius:30px; border:2px solid #CCC195;}
+.block_1 .block_content h3.sub_title i{ margin-right:8px; color:#B6A467}
+
+@media only screen and (max-width:600px){
+	.block_1{ margin-bottom:30px; padding:0 10px;}
+	.block_1 .block_content{padding:0 10px;}
+	.block_1 .block_title span.icon_title{ width:34px; height:41px; position:absolute; bottom:12px; left:0px;}
+	.block_1 .block_title span.icon_title.icon1{ background-size:34px 41px;}
+	.block_1 .block_title span.icon_title.icon2{ background-size:34px 41px}
+}
+
+/*block_2 內頁===============*/
+.block_2{ margin-bottom:30px;  padding:0px 20px;}
+.block_2:last-child{margin-bottom:0px;}
+.block_2 .block_title{height:46px; line-height:30px; margin-bottom:20px; position:relative;}
+.block_2 .block_title h2{ padding-left:10px; color:#4d80a5; position:relative; z-index:5;}
+.block_2 .block_title::before{ display:block; content:""; width:120px; height:20px; background:#a1cdea; position:absolute; bottom:10px; left:0px; z-index:1;}
+.block_2 .block_content{padding:0px 20px;}
+.block_2 .block_content h3.sub_title{ display:inline-block; margin:0 auto; margin-left:15px; margin-bottom:15px; padding:5px 10px; text-align:center; color:#686037;  background:#E1D7BB; border-radius:30px; border:2px solid #CCC195;}
+.block_2 .block_content h3.sub_title i{ margin-right:8px; color:#B6A467}
+@media only screen and (max-width:600px){
+	.block_2 .block_title{ height:58px; line-height:46px; margin-bottom:10px;}
+	.block_2{ margin-bottom:20px;  padding:0px;}
+	.block_2 .block_content{padding:0px;}
+}
+
+
+/*part_list_1 首頁最新消息列表============================*/
+.part_list_1{ clear:both; }
+.part_list_1 h3{ font-size:15px; }
+.part_list_1 h3 a{ display:block; padding:10px 0px; border-bottom:1px solid #bbbbbb;}
+.part_list_1 h3 a span{ margin-right:10px; color:#9E9565 }
+
+/*part_pictxt_1 附近景點 吃喝玩樂================*/
+.part_pictxt_1{}
+.part_pictxt_1 .piece{border-bottom:1px solid #eee; padding-bottom:20px; padding-top:20px;}
+.part_pictxt_1 .piece:first-child{padding-top:0px;}
+.part_pictxt_1 .piece:last-child{border-bottom:none;}
+.part_pictxt_1 .piece .box1{ width:48%; float:left;}
+.part_pictxt_1 .piece .box1 h3{ display:inline-block; padding:5px 0; border-bottom:3px solid #e1ebf4;}
+.part_pictxt_1 .piece .box1 h3.color1{ border-bottom:3px solid #F16654;}
+.part_pictxt_1 .piece .box1 h3.color2{border-bottom:3px solid #e9b71d;}
+.part_pictxt_1 .piece .box1 p.summary{ margin-top:20px;}
+
+.part_pictxt_1 .piece .box2{ width:48%; float:right;}
+.part_pictxt_1 .piece p.pic{ width:100%; height:auto; border:6px solid #fff; box-shadow:0px 0px 5px 3px #CCC; border-radius:8px;}
+.part_pictxt_1 .piece p.pic.no-border{ border:0px; box-shadow:none;}
+.part_pictxt_1 .piece p.pic img{ width:100%; height:auto;}
+
+/*小於600*/
+@media only screen and (max-width:600px){
+	.part_pictxt_1 .piece .box1{ width:100%; float:none;}
+	.part_pictxt_1 .piece .box2{ width:100%; float:none; margin-top:20px;}
+}
+
+/*part_pictxt_2 房型列表===========================*/
+.part_pictxt_2{}
+.part_pictxt_2 .piece{ width:24%; margin-right:1%; margin-bottom:50px; float:left; text-align:center;}
+.part_pictxt_2 .piece:nth-child(4n-4){margin-right:0;}
+.part_pictxt_2 .piece a{ display:block; padding:20px 0;}
+.part_pictxt_2 .piece a:hover{background:rgba(255,255,255,0.3); border-radius:20px;}
+.part_pictxt_2 .piece p.pic{ width:230px; height:230px; margin:0 auto; margin-bottom:15px; border-radius:50%; overflow:hidden;  transition:all .3s;}
+.part_pictxt_2 .piece p.pic img{ width:auto; height:100%;}
+.part_pictxt_2 .piece a:hover p.pic{ border:5px solid rgba(255,255,255,0.5); transition:all .3s;}
+.part_pictxt_2 .piece a:hover h3{}
+.part_pictxt_2 .piece span{ font-size:13px;}
+.part_pictxt_2 .piece span em{ font-size:24px; color:#2f81bd; font-style:normal;}
+@media only screen and (max-width:1000px){
+	.part_pictxt_2 .piece{ width:48%; }
+}
+
+@media only screen and (max-width:600px){
+	.part_pictxt_2 .piece{ width:100%; margin-bottom:10px;}
+	.part_pictxt_2 .piece a{padding:10px 0;}
+}
+
+/*pic_txt_3 最新消息列表============================*/
+.news_tab{ border-bottom:2px solid #d4cabd; margin-bottom:20px;}
+.news_tab a{ display:inline-block; padding:5px 8px; margin-right:5px; color:#79756c; background:#d4cbab; border-radius:8px 8px 0px 0px;}
+.news_tab a.active{ color:#fff; background:#a5d1f4;}
+
+.part_pic_txt_3{}
+.part_pic_txt_3 .piece{ margin-bottom:10px; padding-bottom:10px; border-bottom:2px dotted #aeaba0;}
+.part_pic_txt_3 .piece:last-child{ margin-bottom:0px; border-bottom:0px; }
+.part_pic_txt_3 .piece a.pic{ display:block; width:96px; height:96px; float:left; margin-right:10px; overflow:hidden;}
+.part_pic_txt_3 .piece a.pic img{ width:auto; height:96px; transition:all .5s;}
+.part_pic_txt_3 .piece a.pic:hover img{transform:scale(1.1); transition:all .5s;}
+.part_pic_txt_3 .piece p.date{ font-size:12px;}
+.part_pic_txt_3 .piece p.date i{ margin-right: 5px; }
+.part_pic_txt_3 .piece h3{}
+.part_pic_txt_3 .piece h3 a{transition:all .5s; color:#4d80a5;}
+.part_pic_txt_3 .piece h3 a:hover{  text-decoration:underline;}
+.part_pic_txt_3 .piece h3 p{}
+@media only screen and (max-width:600px){
+	.part_pic_txt_3 .piece a.pic{ display:block; width:100%; height:150px; float:none; margin-right:10px; overflow:hidden;}
+	.part_pic_txt_3 .piece a.pic img{ width:100%; height:auto;}
+}
+
+/*subject_recommend_list 名宿推薦===============*/
+.subject_recommend_list{}
+.subject_recommend_list .tab{ padding-bottom:20px; margin-bottom:20px;  border-bottom:2px solid #d4cabd; }
+.subject_recommend_list .tab a{ display:inline-block; padding:5px 8px; margin-right:8px; margin-bottom:10px; color:#686037; background:rgba(255,255,255,0.5); border-radius:10px; box-shadow:0px 2px 2px 1px rgba(0,0,0,0.1); border:1px solid #E6E1CE;}
+.subject_recommend_list .tab a:last-child{margin-right:0px;}
+.subject_recommend_list .tab a:hover{ color:#443b34; background:rgba(255,255,255,0.9);}
+.subject_recommend_list .tab_content{}
+
+/*part_picbox1*/
+.part_picbox1{ border-bottom:1px solid #d4cabd; margin-bottom:10px;}
+.part_picbox1:last-child{ border:0px;}
+.part_picbox1 h3{ font-size:21px; margin-bottom:10px; color:#686037}
+.part_picbox1 .piece{ width:18%; margin-right:2%; margin-bottom:20px; float:left; text-align:center;}
+.part_picbox1 .piece:hover p.pic{ border:3px solid #9E9B80;}
+
+.part_picbox1 .piece a{}
+.part_picbox1 .piece p.pic{width:190px; height:190px; margin:0 auto; margin-bottom:10px; overflow:hidden; border:2px solid #d4cabd; border-radius:5px; text-align:center; background:#E7E3D3; position:relative;}
+.part_picbox1 .piece p.pic img{ width:auto; height:100%; position:absolute; top:50%; left:50%; transform: translate(-50%,-50%); }
+.part_picbox1 .piece span{}
+
+@media only screen and (max-width:768px){
+	.part_picbox1 .piece{ width:48%;}
+}
+@media only screen and (max-width:600px){
+	.part_picbox1 .piece{ width:100%;}
+}
+
+/*part_pager 分頁==============================*/
+.part_pager{ margin-top:20px; text-align:center;}
+.part_pager .disable{ padding:3px 8px; margin-right:10px; color:gray; border-radius:8px;}
+.part_pager .current{ padding:3px 8px; margin-right:10px; background:#eee; border-radius:8px;}
+.part_pager a{ padding:3px 8px; margin-right:10px; border-radius:8px;}
+.part_pager a:hover{ background:#a4d2f4; color:#fff;}
+.part_pager p.info{ padding-top:10px; font-size:13px;}
+@media only screen and (max-width:768px){
+	.part_pager{ margin-top:10px; font-size:18px;}
+	.part_pager .disable{ display:none;}
+	.part_pager .current{ display:none;}
+	.part_pager a{ display:none; margin-right:0px;}
+	.part_pager a.prev{ display:block; width:48%; float:left; font-size:30px;}
+	.part_pager a.next{ display:block; width:48%; float:right; font-size:30px;}
+	.part_pager p.info{ padding-top:40px;}
+} 
+
+/*part_breadcrumb_1 麵包屑=============================*/
+.part_breadcrumb_1{ margin-bottom:15px; padding-top:8px; padding-left:20px; font-size:13px;}
+.part_breadcrumb_1 i{ margin: 0px 5px; color:#a0a095;}
+.part_breadcrumb_1 a{ color:#a0a095;}
+.part_breadcrumb_1 a i{ margin-right:5px;}
+.part_breadcrumb_1 a:hover{color:#443b34;}
+.part_breadcrumb_1 span.current{ color:#4d80a5;}
+
+@media only screen and (max-width:768px){
+	.part_breadcrumb_1{padding-left:0px;}
+}
+/*part_menu_1 按鈕==============================*/
+.part_menu_1{ padding:20px 0px;}
+.part_menu_1.center{ text-align:center;}
+.part_menu_1 a.btn{  padding:8px 20px; margin-right:15px; color:#4d80a5; background:#a4d2f4; border-radius:5px}
+.part_menu_1 a.btn:hover{ background:#acc6da;}
+.part_menu_1 a.btn:last-child{ background:#aeaba0; color:#69584c;}
+.part_menu_1 a.btn:hover:last-child{ background:#8e8a7d; color:#443b34;}
+.part_menu_1 a.btn i{ margin-right:8px;}
+
+/*============================subject_1 共用 最新消息、關於本館、訂房說明內頁=======================*/
+
+/*標題*/
+.subject_1 .news_title{ padding: 20px 0px 20px 0px;}
+.subject_1 .news_title i{ margin-right:10px;}
+.subject_1 .news_title .left{ float:left;}
+.subject_1 .news_title .right{ float:right;}
+.subject_1 .news_title span{color:gray;}
+.subject_1 .news_title h2{ padding-left:15px; clear:both; background:#a1cdea; color:#fff;}
+@media only screen and (max-width:768px){
+	.news_title{ padding: 0px 0px 0px 0px;}
+}
+/*內文*/
+.subject_1 .story{}
+.subject_1 .story p{ margin-bottom:15px;}
+.subject_1 .story p img{ max-width:100%; height:auto;}
+
+/*訂房說明*/
+.subject_1 ul.reservation_list{ padding-left:20px;}
+.subject_1 ul.reservation_list li{counter-increment:iNo;}
+.subject_1 ul.reservation_list li p{ display:inline-block; padding-left:35px; position:relative; }
+.subject_1 ul.reservation_list li p::before{ display:inline-block;content:counter(iNo); width:25px; line-height:25px; margin-right:10px; text-align:center; color:#fff; background:#a1cdea; border-radius:50%; position:absolute; top:0px; left:0px;}
+.subject_1 ul.reservation_list p.bank{ margin-left:35px;}
+@media only screen and (max-width:600px){
+	.subject_1 ul.reservation_list{ padding-left:0px;}
+	.subject_1 .story .box2{ width:100%; float:none;}
+}
+
+/*交通資訊*/
+.subject_1 .story .box1{ width:48%; float:left; margin-right:4%;}
+.subject_1 .story .box2{ width:48%; float:left;}
+.subject_1 .story .box1 strong{ color:#4d80a5;}
+
+@media only screen and (max-width:600px){
+	.subject_1 .story .box1{ width:100%; float:none; margin-right:0%;}
+	.subject_1 .story .box2{ width:100%; float:none;}
+}
+
+/*===================================== subject_landing 歡迎頁=========================*/
+.header_box_2 .header .kv{ width:100%; height:300px;background:url(../images/bg_landpage.png) no-repeat; background-size:contain;}
+.header_box_2 .header .kv h1{ width:300px; height:125px; background:url(../images/logo_free_w.png) no-repeat; background-size:contain; text-indent:-9999px; position:absolute; top:40px; left:50%; margin-left:-150px;}
+.header_box_2 .header .kv p{ margin-left:180px; color:#fff; position:absolute; top:40px; left:50%;}
+
+@media only screen and (max-width:768px){
+	.header_box_2 .header .kv{background-size:cover;}
+	.header_box_2 .header .kv h1{ width:180px; height:75px; margin-left:-90px; top:40px;}
+}
+@media only screen and (max-width:600px){
+	.header_box_2 .header .kv{ background-position:center bottom; }
+	.header_box_2 .header .kv p{ top:100px; left:50%; margin-left:-80px; text-shadow:1px 1px #86B7DB; text-align:center;}
+	.header_box_2 .header .kv h1{ width:150px; height:63px; margin-left:-75px; top:20px;}
+}
+.subject_landing{}
+.subject_landing .box1{ width:45%; float:left; margin-right:10%; margin-bottom:50px; }
+.subject_landing .box1:nth-child(2n){ margin-right:0;}
+.subject_landing .box1 .title{ margin-bottom:30px;}
+.subject_landing .box1 .title h2{ height:74px; background-size:contain; text-indent:-9999px;}
+.subject_landing .box1 .title h2 a{ display:block; height:74px;}
+.subject_landing .box1 .title h2.beauty{ background:url(../images/icon_title_3.png) center center no-repeat; background-size:contain;}
+.subject_landing .box1 .title h2.love{ background:url(../images/icon_title_4.png) center center no-repeat; background-size:contain;}
+.subject_landing .box1 .title h2.recommend{ background:url(../images/icon_title_5.png) center center no-repeat; position:relative; background-size:contain;}
+.subject_landing .box1 .title h2.recommend a::before{ display:block; width:60px; height:60px; content:"";border-radius:50%; position:absolute; bottom:0px; right:50px;background:#87b2d2 url(../images/icon_btn_1.png) center center no-repeat; background-size:60px auto; z-index:10;}
+.subject_landing .box1 .title h2.have_fun{ background:url(../images/icon_title_6.png) center center no-repeat; position:relative; background-size:contain;}
+.subject_landing .box1 .title h2.have_fun a::before{ display:block; width:60px; height:60px; content:"";border-radius:50%; position:absolute; bottom:0px; right:50px; background:#87b2d2 url(../images/icon_btn_1.png) center center no-repeat; background-size:60px auto; z-index:10;}
+
+.subject_landing .box1 .title h2.recommend a:hover::before{background-color:#8cc1e8;}
+.subject_landing .box1 .title h2.have_fun a:hover::before{background-color:#8cc1e8;}
+
+.subject_landing .item_1{}
+.subject_landing .item_1 a{ display:block; max-width:450px; margin:0 auto; text-align:center; position:relative;}
+.subject_landing .item_1 a::before{ display:block; width:60px; height:60px; content:"";border-radius:50%; position:absolute; bottom:100px; right:50px; background:#87b2d2 url(../images/icon_btn_1.png) center center no-repeat; background-size:60px auto; z-index:10;}
+.subject_landing .item_1 a:hover::before{ background-color:#8cc1e8;}
+
+.subject_landing .item_1 p.pic{ width:350px; height:350px; margin:0 auto; margin-bottom:30px; overflow:hidden; border-radius:50%; position:relative; }
+.subject_landing .item_1 p.pic img{ width:auto; height:100%; margin:auto; position:absolute;  top:50%; left:50%; transform: translate(-50%,-50%);}
+.subject_landing .item_1 p.summary{}
+@media only screen and (max-width:600px){
+	.subject_landing .box1 .title h2{ height:60px;}
+	.subject_landing .box1 .title h2.recommend a::before{ right:20px;}
+	.subject_landing .box1 .title h2.have_fun a::before{ right:20px;}
+	.subject_landing .box1{ width:100%; float:none;}
+	.subject_landing .item_1 p.pic{ width:250px; height:250px;}
+	
+}
+
+/*=================================subject_room 房型內頁============================*/
+.subject_room{}
+.subject_room .box1{width:58%; float:left; }
+.subject_room .box2{width:40%; float:right; }
+.subject_room .box2 .title{ margin-bottom:15px; border-bottom:2px dotted #aeaba0;  padding-bottom:15px; }
+.subject_room .box2 .title h2{ color:#231815;}
+.subject_room .box2 .title span{ font-size:13px;}
+.subject_room .box2 .title span em{ font-size:24px; color:#2f81bd; font-style:normal;}
+
+.subject_room .box2 .info{border-bottom:2px dotted #aeaba0;  margin-bottom:15px;}
+.subject_room .box2 .info p{ margin-bottom:15px;}
+
+@media only screen and (max-width:600px){
+	.subject_room .box1{width:100%; float:none; margin-top:10px;  }
+	.subject_room .box2{width:100%; float:none; }
+}
+
+
+
+/*ifram自適應*/
+
+.googlemap{
+position: relative;
+padding-top: 0px; height: 0; overflow:auto;
+padding-bottom:60%;
+border:5px solid #CCC195;
+margin-bottom:20px;
+}
+
+.googlemap iframe,
+.googlemap object,
+.googlemap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
