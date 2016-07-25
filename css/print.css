@@ -1,0 +1,14 @@
+/*===============================================友善列印===================================*/
+
+@media print { 
+.header,
+.topbar_box,
+.nav_1,
+.subjcet_article .operate_1,
+.subjcet_article .operate_2,
+.block,
+.gototop{ display:none!important;}
+.wrapper{ width:100%!important; max-width:100%!important;}
+.subjcet_article img{ max-width:500px!important;}
+.site_logo{ display:block!important;} 
+}
