@@ -34,7 +34,7 @@ body,html{ height:100%;}
 
 /*--container==============*/
 .container_box{} 
-.container_box .container{ clear:both; width:100%; max-width:1300px; padding:15px 40px; margin:0 auto; background:rgba(255,255,255,0.2); box-shadow: 0 1px 2px rgba(204,204,204,0.75); border-radius:8px;}
+.container_box .container{ clear:both; width:100%; max-width:1300px; min-height:100vh; padding:15px 40px; margin:0 auto; background:rgba(255,255,255,0.2); box-shadow: 0 1px 2px rgba(204,204,204,0.75); border-radius:8px;}
 
 /*小於600*/
 @media only screen and (max-width:600px){
