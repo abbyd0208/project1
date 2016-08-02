@@ -11,6 +11,7 @@ body,html{ height:100%;}
 .topbar .menu_1{ margin-top:8px; float:right;}
 .topbar .menu_1 a{ display:inline-block; padding:5px 8px;color:#fff; font-size:13px; border-radius:8px; }
 .topbar .menu_1 a.fb{ background:#458ECB;}
+.topbar .menu_1 a.fb i.fa-facebook{ margin-right:5px; }
 .topbar .menu_1 a.line{ background:#329E55;}
 .topbar .menu_1 a.blog{ background:#ea7c84;}
 
