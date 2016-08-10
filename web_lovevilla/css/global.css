@@ -1,0 +1,64 @@
+/*******global.css**************************************************************/
+
+* { 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+html{
+font-size: 100%; /* 1 */
+-webkit-text-size-adjust: 100%; /* 2 */
+-ms-text-size-adjust: 100%; /* 2 */
+}
+
+
+body { font-family: Microsoft JhengHei,Meiryo; font-size:16px; line-height:1.6;  color:#262425; }
+
+ul{ list-style:none;}
+
+/*內文設定*/
+p{font-size: 16px;}
+
+/*小於600*/
+@media only screen and (max-width:599px){
+	p{font-size: 16px;}
+}
+
+a{outline:none; /* for Firefox */ transition:all .3s;}
+
+/*預設連結狀態*/
+a:link, a:visited { color:#232014; text-decoration:none;}
+a:hover, a:active { color:#7B5C46; text-decoration:none; transition:all .3s;}
+
+/*圖片無框*/
+a img { border:none;}
+
+/*去除圖片底下空白
+img{vertical-align: bottom;}*/
+
+/*h標題設定*/
+h1 { font-size:20px; font-weight:normal;}
+h2 { font-size:24px; font-weight:normal; color:#232014;}
+h3 { font-size:18px; font-weight:normal;}
+h4 { font-size:20px; font-weight:normal;}
+
+
+/*清除 clearfix*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {*zoom: 1; _zoom: 1; }
+
+
+
+/*按鈕==============================*/
+a.btn_more{ display:inline-block;  padding:5px 8px; text-align:center; color:#fff; background:#beb788; border-radius:5px;}
+a.btn_more:hover{ background:#a59f74;}
+a.btn_more i{ margin-right:5px;}
+
+/*回上層*/
+.gototop{ width:50px; height:50px; line-height:50px; text-align:center; background:rgba(255,255,255,0.8); color:gray; position:fixed; bottom:50px; right:50px; z-index:100; cursor:pointer; border-radius:50%; box-shadow:0px 2px 2px rgba(0,0,0,0.3); display:none}
+.gototop i{ }
+@media only screen and (max-width:600px){
+	.gototop{ right:10px;}
+}
+

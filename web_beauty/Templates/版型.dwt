@@ -1,15 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/版型.dwt" codeOutsideHTMLIsLocked="false" -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>自由心向</title>
-<!-- InstanceEndEditable -->
-<link rel="stylesheet" type="text/css" href="css/master.css"/>
-<link rel="stylesheet" type="text/css" href="js/jquery.bxslider/jquery.bxslider.css"/>
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>美麗蓮夢露</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../css/master.css"/>
+<link rel="stylesheet" type="text/css" href="../js/jquery.bxslider/jquery.bxslider.css"/>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <div class="topbar">
         	<!--menu_1 社群-->
         	<div class="menu_1">
-            	<a class="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i>自由心向粉絲專頁</a>
+            	<a class="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i>美麗蓮夢露粉絲專頁</a>
             	<!--<a class="line" href="#">Line</a>-->
             </div>
             <!--menu_1 社群-->
@@ -66,7 +66,7 @@
                     
                     <!--nav_1 logo中間-->
                     <div class="logo">
-                    	<h1><a href="index.html">自由心向</a></h1>
+                    	<h1><a href="index.html">美麗蓮夢露</a></h1>
                     </div>	
                     <!--nav_1 logo中間-->
                 </div>
@@ -75,12 +75,12 @@
                 
                 <!--header logo-->
                 <div class="logo_2">
-                    <h1><a href="index.html">自由心向</a></h1>
+                    <h1><a href="index.html">美麗蓮夢露</a></h1>
                 </div>	
                 <!--header logo-->
            
                 <!--打開nav_1選單-->
-                <div class="btn_open">三</div>
+                <div class="btn_open"></div>
                 <!--打開nav_1選單-->
             </div>
             <!--header 結束--> 
@@ -90,54 +90,13 @@
         
         <!--container_box 開始-->
         <div class="container_box"> 
-            <!-- InstanceBeginEditable name="container" -->
+            <!-- TemplateBeginEditable name="container" -->
             <!--container 開始-->
-           <div class="container">
-				<!--麵包屑 開始-->
-                <div class="part_breadcrumb_1">
-                    <a href="index.html"><i class="fa fa-home"></i>首頁</a>
-                    <i class="fa fa-angle-right" aria-hidden="true"></i>
-                    <span class="current">連絡我們</span>
-                </div>
-                <!--麵包屑 結束-->
-
-			 	<!--橫列 r1 開始-->
-                <div class="r1 clearfix"> 
-                	<section>
-                    <!--直欄 c1 開始-->
-                    <div class="c1">
-                    	<article>
-                        <!--block_2 附近景點 開始-->
-                        <div class="block block_2">
-                        	<!--block_title開始-->
-                            <div class="block_title">
-                            	<h2>連絡我們</h2>
-                            </div>
-                            <!--block_title結束-->
-                            
-                            <!--block_content開始-->
-                        	<div class="block_content">
-                          		<p class="address">自由心向-Love Villa愛度假庭園民宿<br/>
-                                地址：宜蘭縣冬山鄉武罕一路63號<br/>
-                                信箱：lvfreespirit@gmail.com<br/>
-                                訂房專線：0987-455018
-                                </p>
-                                <p>
-                                    <img class="qrcode" src="images/loveville_qr.jpg">
-                                </p>
-                            </div>
-                        	<!--block_content結束-->
-                        </div>
-                        <!--block_2 附近景點 結束-->
-                        </article>
-                    </div>
-                    <!--直欄 c1 結束-->
-                    </section>
-                </div>
-                <!--橫列 r1 結束--> 
+            <div class="container">
+			可編輯區域
             </div>
             <!--container 結束--> 
-            <!-- InstanceEndEditable --> 
+            <!-- TemplateEndEditable --> 
         </div>
         <!--container_box 結束--> 
         
@@ -157,7 +116,7 @@
                     <a href="#">問與答</a>|
                     <a href="#">聯絡我們</a>
                </div>
-               <p>Copyright © 2016 自由心向 YilanFFS All Rights Reserved</p>
+               <p>Copyright © 2016 美麗蓮夢露 YilanFFS All Rights Reserved</p>
             </div>
             <!--footer 結束--> 
         </div>
@@ -168,10 +127,10 @@
     <!--wrapper 結束--> 
 </div>
 <!--wrapper_box 結束-->
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
 
 
