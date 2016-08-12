@@ -105,10 +105,17 @@ body,html{ height:100%;}
 .nav_1 .logo h1{ width:200px; height:110px; position:absolute; bottom:20px; left:50%; margin-left:-100px;}
 .nav_1 .logo h1 a{ display:block; width:200px; height:110px; text-indent:-9999px; background:url(../images/logo_love.png) no-repeat; background-size:200px 110px;}
 
+/*歡迎頁*/
+.nav_1 .logo.free h1 a{ display:block; width:300px; height:126px; text-indent:-9999px; background:url(../images/logo_free.png) no-repeat; background-size:300px 126px;}
+
 /*.header logo header內的logo 於手機板顯示==========*/
 .header .logo_2{ display:none;}
 .header .logo_2 h1{ width:272px; height:55px; position:absolute; bottom:5px; left:50%; margin-left:-136px;}
 .header .logo_2 h1 a{ display:block; width:272px; height:55px; text-indent:-9999px; background:url(../images/logo_free-m.png) no-repeat; background-size:272px auto;}
+
+/*歡迎頁*/
+.header .logo_2.free h1 a{display:block; width:300px; height:126px; text-indent:-9999px; background:url(../images/logo_free.png) no-repeat; background-size:300px 126px;}
+
 
 /*小於1000*/
 @media only screen and (max-width:1000px){
@@ -127,14 +134,20 @@ body,html{ height:100%;}
 	/*.nav_1  logo 側滑選單中的logo==========*/
 	.header .nav_1 .logo h1{width:150px; height:83px;  margin-left:-75px; top:10px; }
 	.header .nav_1 .logo h1 a{width:150px; height:83px; background-size:150px 83px;}
+	.nav_1 .logo.free h1 a{ width:300px; height:126px; background-size:300px 126px;}
+	
 
 	/*.header logo header內的logo==========*/
 	.header .logo_2{ display:block;}
+	.header .logo_2.free h1{ width:150px; margin-left:-68px;}
+	.header .logo_2.free h1 a{ width:150px; height:63px; background-size:150px auto;}
 }
 
 @media only screen and (max-width:480px){
 	.header .logo_2 h1{ width:223px; height:45px; position:absolute; bottom:5px; left:50%; margin-left:-111px;}
 	.header .logo_2 h1 a{ display:block; width:223px; height:45px; text-indent:-9999px; background:url(../images/logo_free-m.png) no-repeat; background-size:223px auto;}
+	.header .logo_2.free h1{ width:100px; margin-left:-50px;}
+	.header .logo_2.free h1 a{ width:100px; height:42px; background-size:100px auto;}
 }
 
 
@@ -223,6 +236,22 @@ body,html{ height:100%;}
 	.block_2 .block_content{padding:0px;}
 }
 
+.block_2 .block_title p.ad{ left:150px; top:-33px; display:inline-block; padding:5px; color:#487aaf; border:3px solid #a1cdea; border-radius:10px; background:rgba(255,255,255,0.5); position:relative;}
+.block_2 .block_title p.ad::before{content:""; display:block; width:0; position:absolute; top:5px; left:-30px; border:15px solid green; border-color: transparent #a1cdea transparent transparent ;}
+.block_2 .block_title p.ad em{ font-style:normal; font-size:18px; font-weight:bold;}
+								
+								
+/*414*/
+@media only screen and (max-width:414px){
+	 .block_2 .block_title p.ad{ width:50%; line-height:1.6; top:-70px;}
+	 .block_2 .block_title p.ad::before{position:absolute; top:35px;}
+}
+
+/*320*/
+@media only screen and (max-width:320px){
+	 .block_2 .block_title p.ad{ width:50%; line-height:1.6; top:-90px;}
+	 .block_2 .block_title p.ad::before{position:absolute; top:55px;}
+}
 
 /*part_list_1 首頁最新消息列表============================*/
 .part_list_1{ clear:both; }
@@ -346,10 +375,13 @@ body,html{ height:100%;}
 .part_breadcrumb_1 a i{ margin-right:5px;}
 .part_breadcrumb_1 a:hover{color:#443b34;}
 .part_breadcrumb_1 span.current{ color:#4d80a5;}
-
+/*歡迎頁*/
+.part_breadcrumb_1.free{ font-size:20px;}
 @media only screen and (max-width:768px){
 	.part_breadcrumb_1{padding-left:0px;}
 }
+/*歡迎頁*/
+
 /*part_menu_1 按鈕==============================*/
 .part_menu_1{ padding:20px 0px;}
 .part_menu_1.center{ text-align:center;}
