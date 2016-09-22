@@ -117,3 +117,27 @@ $(function(){
 	});
 	
 });
+
+
+//
+$(function(){
+	//table寫入
+	$("table").attr("class", "my_table")
+	
+	var sTxt1 = $(".my_table tr").eq(0).find("th").eq(0).html();
+	var sTxt2 = $(".my_table tr").eq(0).find("th").eq(1).html();
+	var sTxt3 = $(".my_table tr").eq(0).find("th").eq(2).html();
+	var sTxt4 = $(".my_table tr").eq(0).find("th").eq(3).html();
+	var sTxt5 = $(".my_table tr").eq(0).find("th").eq(4).html();
+	var sTxt6 = $(".my_table tr").eq(0).find("th").eq(5).html();
+	
+	var aTxt = [sTxt1, sTxt2, sTxt3, sTxt4, sTxt5, sTxt6];
+	
+	$(".my_table tr").slice(1).each(function(i){
+		$(this).find("td").each(function(j){
+			$(this).prepend("<span>"+aTxt[j]+" </span>")
+		});
+	});
+	
+});
+

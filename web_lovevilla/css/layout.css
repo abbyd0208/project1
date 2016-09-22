@@ -514,3 +514,18 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+/*======table=====*/
+table{ border-color:#eee;}
+table.my_table th{ display:none; text-align:center; height:30px; line-height:30px; background:#7db0d2; font-weight:normal;}
+table.my_table td{ display:block; line-height:30px; background:#fff;}
+table.my_table td span{ display:inline-block; min-width:110px;  color:#fff; text-align:center; background:#7db0d2; padding:5px; margin-right:5px;}
+table.my_table td:last-child{ margin-bottom:20px;}
+
+
+/*大於等於480*/
+@media only screen and (min-width:480px){
+	table.my_table th{ display:table-cell; letter-spacing:2px; color:#fff;}
+	table.my_table td{ display: table-cell; text-align:center;}
+	table.my_table td span{ display:none;}
+}
